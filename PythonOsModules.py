@@ -1,0 +1,8 @@
+os.getcwd()
+os.chdir(path)
+os.listdir(path=".")
+os.mkdir(path, mode=0o777, dir_fd=None)
+os.remove(path, dir_fd=None)
+os.rmdir(path, dir_fd=None)
+os.rename(src, dst)
+os.walk(top, topdown=True, onerror=None, followlinks=False)
